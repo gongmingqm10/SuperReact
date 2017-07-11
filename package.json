@@ -1,0 +1,21 @@
+{
+  "name": "SuperReact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gongmingqm10/SuperReact.git",
+  "author": "mingong <gongmingqm10@foxmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --hot"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.1.0"
+  }
+}
